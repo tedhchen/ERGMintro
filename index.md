@@ -40,4 +40,4 @@ A basic understanding of social network analysis and a working knowledge of R is
 {{ site.staffers | where: 'name', 'Ted Hsuan Yun Chen' }}
 
 **Teaching Assistant:**
-{{ site.staffers | where: 'name', 'Omer Yalcin' }}
+{{ site.staffers | where: 'name', 'Omer F. Yalcin' }}
