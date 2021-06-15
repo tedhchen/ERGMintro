@@ -27,7 +27,7 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Just the Class on GitHub:
+  Github Repository:
     - 'https://github.com/tedhchen/ERGMintro'
 footer_content: 'Ted Hsuan Yun Chen &copy; 2020 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'
 
