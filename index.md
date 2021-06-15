@@ -14,11 +14,21 @@ Website for the ERGM Workshop held as a part of the 2021 Political Networks Conf
 
 ## About
 
-How do we explain the formation of ties on a network? Beyond actor- and dyad-level factors, network effects such as reciprocity often play a role. This workshop introduces the exponential random graph model (ERGM) that lets us statistically study how network ties are formed. The workshop is also a tutorial on how to fit these models in R. In the first part of the workshop, we will discuss the logic of using local network configurations to study social and political processes in a networked system. Next, we will look at how to conduct inferential statistical analysis of these processes using the ERGM framework. This portion of the workshop will be heavily integrated with a tutorial on how to run these models in R using the statnet suite of packages, and will be designed to allow participants to follow the tutorial on their own computers. A basic understanding of social network analysis and a working knowledge of R is assumed. 
+How do we explain the formation of ties on a network? Beyond actor- and dyad-level factors, network effects such as reciprocity often play a role. This workshop introduces the exponential random graph model (ERGM) that lets us statistically study how network ties are formed. The workshop is also a tutorial on how to fit these models in R. 
 
-[Click here to see the Political Networks Conference website.](https://conference.polinetworks.org/political-networks-conference)
+In the first part of the workshop, we will discuss the logic of using local network configurations to study social and political processes in a networked system. Next, we will look at how to conduct inferential statistical analysis of these processes using the ERGM framework. This portion of the workshop will be heavily integrated with a tutorial on how to run these models in R using the statnet suite of packages, and will be designed to allow participants to follow the tutorial on their own computers. 
+
+A basic understanding of social network analysis and a working knowledge of R is required. 
+
+[Click here to go to the PolNet website](https://conference.polinetworks.org/political-networks-conference){:target="_blank"}
+
+---
 
 **Workshop and website are still under development.**
+
+**Note about software:** Participants should have [R](https://www.r-project.org/){:target="_blank"} (preferably >= 4.0.5) installed for their preferred coding environment. There are minimal packages to install, which we will do together as part of the hands-on tutorial.
+
+---
 
 ## Basics
 
