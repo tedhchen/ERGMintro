@@ -1,62 +1,33 @@
 ---
 layout: home
-title: Just the Class
+title: ERGM Intro
 nav_exclude: true
 seo:
   type: Course
-  name: Just the Class
+  name: ERGM Intro
 ---
 
-# {{ site.tagline }}
+# Introduction to Exponential Random Graph Models
 {: .mb-2 }
-{{ site.description }}
+Website for the ERGM Workshop held as a part of the 2021 Political Networks Conference.
 {: .fs-6 .fw-300 }
 
-{% if site.announcements %}
-{{ site.announcements.last }}
-[Announcements](announcements.md){: .btn .btn-outline .fs-3 }
-{% endif %}
+## About
 
-## Just the Class
+How do we explain the formation of ties on a network? Beyond actor- and dyad-level factors, network effects such as reciprocity often play a role. This workshop introduces the exponential random graph model (ERGM) that lets us statistically study how network ties are formed. The workshop is also a tutorial on how to fit these models in R. In the first part of the workshop, we will discuss the logic of using local network configurations to study social and political processes in a networked system. Next, we will look at how to conduct inferential statistical analysis of these processes using the ERGM framework. This portion of the workshop will be heavily integrated with a tutorial on how to run these models in R using the statnet suite of packages, and will be designed to allow participants to follow the tutorial on their own computers. A basic understanding of social network analysis and a working knowledge of R is assumed. 
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+[Click here to see the Political Networks Conference website.](https://conference.polinetworks.org/political-networks-conference)
 
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+**Workshop and website are still under development.**
 
-Just the Class is built on top of [Just the Docs](https://github.com/pmarsceill/just-the-docs), making it easy to extend for your own special use cases while providing sane defaults for most everything else. This means that you also get:
+## Basics
 
-- automatic [navigation structure](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://pmarsceill.github.io/just-the-docs/docs/search/) and page indexing,
-- and a small but powerful set of [UI components](https://pmarsceill.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://pmarsceill.github.io/just-the-docs/docs/utilities).
+**Meeting Time:** 1-4pm Eastern Time, June 16, 2021
 
-## Getting Started
+**Meeting Location:** Virtual (link to be provided by conference organizers)
 
-Getting started with Just the Class is simple.
+**Instructor:**
+{{ site.staffers | where: 'name', 'Ted Hsuan Yun Chen' }}
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `index.md` with your course information.
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add your content.
-
-For a few open-source examples, see the following course websites and their source code.
-
-- [CSE 390HA](https://courses.cs.washington.edu/courses/cse390ha/20au/) is an example of a single-page website: [source code](https://gitlab.cs.washington.edu/cse390ha/20au/website).
-- [CSE 143](https://courses.cs.washington.edu/courses/cse143/20au/) hosts an entire online textbook with full-text search: [source code](https://gitlab.cs.washington.edu/cse143/20au/website).
-
-Continue reading to learn how to setup a development environment on your local computer. This allows you to make incremental changes without directly modifying the live website.
-
-### Local development environment
-
-Just the Class is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler.
-
-1. Follow the GitHub documentation for [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll).
-1. Start your local Jekyll server.
-```bash
-$ bundle exec jekyll serve
-```
-1. Point your web browser to [http://localhost:4000](http://localhost:4000)
-1. Reload your web browser after making a change to preview its effect.
-
-For more information, refer to [Just the Docs](https://pmarsceill.github.io/just-the-docs/).
+**Teaching Assistant:**
+{{ site.staffers | where: 'name', 'Omer Yalcin' }}
