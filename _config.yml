@@ -29,7 +29,7 @@ permalink: pretty
 aux_links:
   Github Repository:
     - 'https://github.com/tedhchen/ERGMintro'
-footer_content: 'Ted Hsuan Yun Chen &copy; 2020 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'
+footer_content: 'Ted Hsuan Yun Chen &copy; 2021 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'
 
 # Collections for website data
 collections:
