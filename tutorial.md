@@ -5,7 +5,7 @@ nav_order: 3
 description: Basic ERGMs with R
 ---
 
-# R Tutorial
+# <span style="color:seagreen"> R Tutorial </span>
 
 In this portion of the workshop, we will work through R code for ERGMs together. The code should work in most coding environments if you have [R](https://www.r-project.org/){:target="_blank"} (>=4.0.5) installed.
 
