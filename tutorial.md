@@ -22,3 +22,8 @@ Some notes about using binder:
 ---
 
 ## Let's get started...
+
+- [HTML of the notebook, pre-run]({{ site.baseurl }}{% link assets/ergm_tutorial.html %}){:target="_blank"}
+- [HTML of the notebook, post-run]({{ site.baseurl }}{% link assets/ergm_tutorial_run.html %}){:target="_blank"}
+- [Github with the notebook](https://github.com/tedhchen/ergmWorkshop){:target="_blank"}
+- [R Code]({{ site.baseurl }}{% link assets/ergm_tutorial.r %}){:target="_blank"}
