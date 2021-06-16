@@ -33,4 +33,4 @@ In the final portion of the workshop, we will return to a conceptual discussion 
 ## Logistics
 The workshop will be run over Zoom using a meeting format. We have several built-in Q&A periods but questions outside of those times are of course encouraged. 
 
-Depending on the number of participants, it might be difficult for the instructor and teaching assistant to see raised hands, but questions typed into the Zoom chat is always an option. The teaching assistant will aggregate all questions for the instructors to see.
+Depending on the number of participants, it might be difficult for the instructor and teaching assistant to see raised hands, but questions typed into the Zoom chat is always an option. The teaching assistant will aggregate all questions for the instructor to see.
