@@ -24,9 +24,9 @@ A basic understanding of social network analysis and a working knowledge of R is
 
 ---
 
-**Workshop and website are still under development.**
+**Note about software:** 
 
-**Note about software:** Participants should have [R](https://www.r-project.org/){:target="_blank"} (preferably >= 4.0.5) installed for their preferred coding environment. There are minimal packages to install, which we will do together as part of the hands-on tutorial.
+Participants should have [R](https://www.r-project.org/){:target="_blank"} (preferably >= 4.0.5) installed for their preferred coding environment. There are minimal packages to install, which we will do together as part of the hands-on tutorial.
 
 ---
 
