@@ -12,9 +12,9 @@ In this portion of the workshop, we will work through R code for ERGMs together.
 ---
 
 ## Binder cloud notebook
-The tutorial is organized as a Jupyter notebook. This means you can follow along and run the code while looking at the notes and code output. To use this, you will need to install [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html). 
+The tutorial is organized as a Jupyter notebook. This means you can follow along and run the code while looking at the notes and code output. To use this, you will need to install [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html){:target="_blank"}. 
 
-I have set up a cloud notebook with the required settings with [Binder](https://mybinder.org/). Click the badge below to launch the tutorial notebook for our workshop on Binder:
+I have set up a cloud notebook with the required settings with [Binder](https://mybinder.org/){:target="_blank"}. Click the badge below to launch the tutorial notebook for our workshop on Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tedhchen/ergmWorkshop/HEAD){:target="_blank"}
 
