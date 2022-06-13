@@ -9,7 +9,7 @@ seo:
 
 # Introduction to Exponential Random Graph Models
 {: .mb-2 }
-Website for the ERGM Workshop held as a part of the 2021 Political Networks Conference.
+Website for the ERGM Workshop held as a part of the 2022 Political Networks Conference.
 {: .fs-6 .fw-300 }
 
 ## About
@@ -32,7 +32,7 @@ Participants should have [R](https://www.r-project.org/){:target="_blank"} (pref
 
 ## Basics
 
-**Meeting Time:** 1-4pm Eastern Time, June 16, 2021
+**Meeting Time:** 12-3pm Central Time, June 15, 2022
 
 **Meeting Location:** Virtual (link to be provided by conference organizers)
 
