@@ -86,18 +86,19 @@ The exponential random graph model is a family of models used for statistically 
 ### The ERGM
 The ERGM can be expressed in two ways:
 
+
 **As a network:** 
 
-- <a href="https://www.codecogs.com/eqnedit.php?latex=Pr(\boldsymbol{G},\boldsymbol{\theta})=\kappa^{-1}\exp\{\boldsymbol{\theta}'\boldsymbol{h}(\boldsymbol{G})\}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Pr(\boldsymbol{G},\boldsymbol{\theta})=\kappa^{-1}\exp\{\boldsymbol{\theta}'\boldsymbol{h}(\boldsymbol{G})\}" title="Pr(\boldsymbol{G},\boldsymbol{\theta})=\kappa^{-1}\exp\{\boldsymbol{\theta}'\boldsymbol{h}(\boldsymbol{G})\}" /></a>
+\$\$Pr(\boldsymbol{G},\boldsymbol{\theta})=\kappa^{-1}\exp\{\boldsymbol{\theta}'\boldsymbol{h}(\boldsymbol{G})\}\$\$
 
 **As dyads:** 
 
-- <a href="https://www.codecogs.com/eqnedit.php?latex=Pr(G_{ij}&space;|&space;G,&space;\mathbf{\theta})&space;=&space;logit&space;^{-1}(\sum^k_{r=1}\theta_r&space;\delta_r^{(ij)}G)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Pr(G_{ij}&space;|&space;G,&space;\mathbf{\theta})&space;=&space;logit&space;^{-1}(\sum^k_{r=1}\theta_r&space;\delta_r^{(ij)}G)" title="Pr(G_{ij} | G, \mathbf{\theta}) = logit ^{-1}(\sum^k_{r=1}\theta_r \delta_r^{(ij)}G)" /></a>
+\$\$Pr(G_{ij}\|G,\mathbf{\theta})=logit^{-1}(\sum^k_{r=1}\theta_r\delta_r^{(ij)}G)\$\$
 
 Representation | Relational Outcome | Generative Features
 :---|:---|:---
-Network | <a href="https://www.codecogs.com/eqnedit.php?latex=Pr(\boldsymbol{G},\boldsymbol{\theta})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Pr(\boldsymbol{G},\boldsymbol{\theta})" title="Pr(\boldsymbol{G},\boldsymbol{\theta})" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=\boldsymbol{h}(\boldsymbol{G})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\boldsymbol{h}(\boldsymbol{G})" title="\boldsymbol{h}(\boldsymbol{G})" /></a>
-Dyad | <a href="https://www.codecogs.com/eqnedit.php?latex=Pr(G_{ij}&space;\|&space;G,&space;\mathbf{\theta})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Pr(G_{ij}&space;\|&space;G,&space;\mathbf{\theta})" title="Pr(G_{ij} \| G, \mathbf{\theta})" /></a> | <a href="https://www.codecogs.com/eqnedit.php?latex=\delta_r^{(ij)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\delta_r^{(ij)}" title="\delta_r^{(ij)}" /></a>
+Network | \$Pr(\boldsymbol{G},\boldsymbol{\theta})\$ | \$\boldsymbol{h}(\boldsymbol{G})\$
+Dyad | \$Pr(G_{ij}\|G,\mathbf{\theta})\$ | \$\delta_r^{(ij)}\$
 
 These are equivalent. Let's go through each of the different components of the expressions with a focus on the "relational outcomes" and the "generative features".
 
@@ -123,13 +124,12 @@ In ERGMs, they are specified as local network configurations.
 
 **network:** total count over the network
 
-- <a href="https://www.codecogs.com/eqnedit.php?latex=\boldsymbol{h}(\boldsymbol{G})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\boldsymbol{h}(\boldsymbol{G})" title="\boldsymbol{h}(\boldsymbol{G})" /></a>
-
+- \$\boldsymbol{h}(\boldsymbol{G})\$
 
 
 **dyad:** number of configurations the dyad contributes to/is a part of
 
-- <a href="https://www.codecogs.com/eqnedit.php?latex=\delta_r^{(ij)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\delta_r^{(ij)}" title="\delta_r^{(ij)}" /></a>
+- \$\delta_r^{(ij)}\$
 
 
 **They are the observable manifestations of tie combinations given your theorized social process.**
@@ -160,21 +160,21 @@ Endogeneous effects are generative features that go beyond the dyad. The are com
 #### Reciprocity
 {:.no_toc}
 
-> If _j_ &#8594; _i_, then _i_ &#8594; _j_.
+> If \$j \rightarrow i\$, then \$i \rightarrow j\$
 
 Are actors likely to reciprocate ties? (Only works for directed networks.)
 
 #### Preferential Attachment
 {:.no_toc}
 
-> If _j_ -- _k_, then _i_ -- _j_.
+> If \$j--k\$, then \$i--j\$
 
 Are actors with more ties more likely to get even more ties?
 
 #### Triadic Closure
 {:.no_toc}
 
-> If _i_ -- _k_ and _j_ -- _k_, then _i_ -- _j_.
+> If \$i--k\$ and \$j--k\$, then \$i--j\$
 
 Are actors with shared partners more likely to form a tie?
 
