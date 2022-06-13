@@ -40,4 +40,4 @@ Participants should have [R](https://www.r-project.org/){:target="_blank"} (pref
 {{ site.staffers | where: 'name', 'Ted Hsuan Yun Chen' }}
 
 **Teaching Assistant:**
-{{ site.staffers | where: 'name', 'Omer F. Yalcin' }}
+{{ site.staffers | where: 'name', 'Jeongho Choi' }}
