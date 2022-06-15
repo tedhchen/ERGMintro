@@ -93,12 +93,12 @@ The ERGM can be expressed in two ways:
 
 **As dyads:** 
 
-\$\$Pr(G_{ij}\|G,\mathbf{\theta})=logit^{-1}(\sum^k_{r=1}\theta_r\delta_r^{(ij)}G)\$\$
+\$\$Pr(G_{ij}\|G,\mathbf{\theta})=logit^{-1}(\sum^k_{r=1}\theta_r\delta_r^{(ij)}(G))\$\$
 
 Representation | Relational Outcome | Generative Features
 :---|:---|:---
 Network | \$Pr(\boldsymbol{G},\boldsymbol{\theta})\$ | \$\boldsymbol{h}(\boldsymbol{G})\$
-Dyad | \$Pr(G_{ij}\|G,\mathbf{\theta})\$ | \$\delta_r^{(ij)}\$
+Dyad | \$Pr(G_{ij}\|G,\mathbf{\theta})\$ | \$\delta_r^{(ij)}(G)\$
 
 These are equivalent. Let's go through each of the different components of the expressions with a focus on the "relational outcomes" and the "generative features".
 
