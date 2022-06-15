@@ -66,7 +66,7 @@ set.seed(210615); plot(network(contig, directed = F), sub = 'Contiguity', cex.su
 
 ?`ergm-terms`
 
-search.ergmTerms(keyword = 'transitive')
+search.ergmTerms(search = 'transitive')
 
 m0 <- ergm(nw ~ edges + nodefactor('dem') + edgecov(joint_dem))
 summary(m0)
@@ -133,8 +133,8 @@ m2.c <- ergm(nw ~ edges + nodefactor('dem') + edgecov(joint_dem) + gwdegree(deca
              eval.loglik = F,
              control = control.ergm(seed = 210615,
                                     MCMC.burnin = 50000,
-                                    MCMC.samplesize = 2500,
-                                    MCMC.interval = 2500,
+                                    MCMC.samplesize = 4000,
+                                    MCMC.interval = 4000,
                                     parallel = 0))
 
 summary(m2.c)
