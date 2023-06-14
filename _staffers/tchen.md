@@ -5,5 +5,5 @@ email: ted.hsuanyun.chen@gmail.com
 website: https://tedhchen.com
 photo: chen_cropped.jpg
 pronouns: he/him
-affiliation: Univerity of Helsinki and Aalto University
+affiliation: George Mason University
 ---
