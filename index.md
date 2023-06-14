@@ -9,8 +9,10 @@ seo:
 
 # Introduction to Exponential Random Graph Models
 {: .mb-2 }
-Website for the ERGM Workshop held as a part of the 2022 Political Networks Conference.
+Website for the ERGM Workshop held as a part of the 2023 Political Networks Conference.
 {: .fs-6 .fw-300 }
+
+**[The current website still contains some information for the 2022 workshop. It will be updated to the 2023 version by the end of the week.]**
 
 ## About
 
@@ -26,18 +28,15 @@ A basic understanding of social network analysis and a working knowledge of R is
 
 **Note about software:** 
 
-Participants should have [R](https://www.r-project.org/){:target="_blank"} (preferably >= 4.0.5) installed for their preferred coding environment. There are minimal packages to install, which we will do together as part of the hands-on tutorial.
+Participants should have [R](https://www.r-project.org/){:target="_blank"} (preferably >= 4.3.0) installed for their preferred coding environment. There are minimal packages to install, which we will do together as part of the hands-on tutorial.
 
 ---
 
 ## Basics
 
-**Meeting Time:** 12-3pm Central Time, June 15, 2022
+**Meeting Time:** 1-4pm Eastern Time, June 19, 2023
 
 **Meeting Location:** Virtual (link to be provided by conference organizers)
 
 **Instructor:**
 {{ site.staffers | where: 'name', 'Ted Hsuan Yun Chen' }}
-
-**Teaching Assistant:**
-{{ site.staffers | where: 'name', 'Jeongho Choi' }}
