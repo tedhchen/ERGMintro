@@ -12,8 +12,6 @@ seo:
 Website for the ERGM Workshop held as a part of the 2023 Political Networks Conference.
 {: .fs-6 .fw-300 }
 
-**[The current website still contains some information for the 2022 workshop. It will be updated to the 2023 version by the end of the week.]**
-
 ## About
 
 How do we explain the formation of ties on a network? Beyond actor- and dyad-level factors, network effects such as reciprocity often play a role. This workshop introduces the exponential random graph model (ERGM) that lets us statistically study how network ties are formed. The workshop is also a tutorial on how to fit these models in R. 
