@@ -28,6 +28,8 @@ Some notes about using Binder:
 
 ## If not Binder, choose your preferred format
 
+**[These html files were run with older packages a couple years ago, but there is no substantive difference between them and the current results.]**
+
 - [HTML of the notebook, pre-run]({{ site.baseurl }}{% link assets/ergm_tutorial.html %}){:target="_blank"} (see the notes and code)
 - [HTML of the notebook, post-run]({{ site.baseurl }}{% link assets/ergm_tutorial_run.html %}){:target="_blank"} (see the notes and all the results of the code)
 - [Github with the notebook](https://github.com/tedhchen/ergmWorkshop){:target="_blank"} (download the notebook to run yourself)
